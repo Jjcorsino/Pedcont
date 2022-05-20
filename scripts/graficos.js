@@ -4,17 +4,9 @@ const ctx3 = 'donaEstudiantes';
 const ctx4 = 'donaHombres';
 const ctx5 = 'donaMujeres';
 
-
-
 var pValues = ["Aprobados", "Desaprobados", "Promocionados", "Ausentes"];
 var xValues = ["Aprobados", "Desaprobados", "Promocionados"];
 var eValues = ["Hombres", "Mujeres"]; 
-var hValues = ["Aprobados", "Desaprobados", "Promocionados"];
-var mValues = ["Aprobados", "Desaprobados", "Promocionados"];
-
-
-
-
 
 const donaMsi = new Chart(ctx, {
     type: "pie",
