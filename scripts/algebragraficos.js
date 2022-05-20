@@ -1,20 +1,22 @@
-const ctx = 'donaMsi';
-const ctx2 = 'barrasMsi';
-const ctx3 = 'donaEstudiantes';
-const ctx4 = 'donaHombres';
-const ctx5 = 'donaMujeres';
+const ctxa = 'donaAlgebra';
+const ctxa1 = 'barAlgebra';
+const ctxa2 = 'donaEstudiantesA';
+const ctxa3 = 'donaHombresA';
+const ctxa4 = 'donaMujeresA';
+
 
 var pValues = ["Aprobados", "Desaprobados", "Promocionados", "Ausentes"];
 var xValues = ["Aprobados", "Desaprobados", "Promocionados"];
 var eValues = ["Hombres", "Mujeres"]; 
 
-const donaMsi = new Chart(ctx, {
+
+const donaAlgebra = new Chart(ctxa, {
     type: "pie",
     data: {
         labels: xValues,
         datasets: [{
             label: 'Total Notas Estudiantes',
-            data: [35, 8, 80],
+            data: [7, 68, 5],
             backgroundColor: [
                 "#2b5797",
                 "#b91d47",
@@ -33,27 +35,25 @@ const donaMsi = new Chart(ctx, {
     }
 });
 
-
-const barrasMsi = new Chart(ctx2, {
+const barAlgebra = new Chart(ctxa1, {
     type: 'bar',
     data: {
-        labels: pValues,
+        labels: xValues,
         datasets: [{
-            data: [35, 8, 80, 90],
+            data: [7, 68, 5],
             label: " ",
             backgroundColor: [
                 'rgba(54, 162, 235, 0.5)',
                 'rgba(255, 99, 132, 0.5)',
                 'rgba(75, 192, 192, 0.5)',
-                'rgba(255, 206, 86, 0.5)',
-
             ],
+
             borderColor: [
                 'rgba(54, 162, 235, 1)',
                 'rgba(255, 99, 132, 1)',
                 'rgba(75, 192, 192, 1)',
-                'rgba(255, 206, 86, 1)',
             ],
+
             borderWidth: 1,
         }]
     },
@@ -64,7 +64,7 @@ const barrasMsi = new Chart(ctx2, {
         },
         title: {
             display: false,
-            text: "Notas Kahoot MSI"
+            text: "Notas Algebra mod 2"
         },
         scales: {
             y: {
@@ -75,13 +75,13 @@ const barrasMsi = new Chart(ctx2, {
 });
 
 
-const donaEstudiantes = new Chart(ctx3, {
+const donaEstudiantesA = new Chart(ctxa2, {
     type: "doughnut",
     data: {
         labels: eValues,
         datasets: [{
             label: 'Estudiantes',
-            data: [182, 31],
+            data: [68, 12],
             backgroundColor: [
                 "rgba(54, 162, 235, 1)",
                 "rgba(255, 99, 132, 1)",
@@ -98,13 +98,13 @@ const donaEstudiantes = new Chart(ctx3, {
     }
 });
 
-const donaHombres = new Chart(ctx4, {
+const donaHombresA = new Chart(ctxa3, {
     type: "pie",
     data: {
         labels: xValues,
         datasets: [{
             label: 'Estudiantes Hombres',
-            data: [70, 6, 31],
+            data: [5, 59, 4],
             backgroundColor: [
                 "#2b5797",
                 "#b91d47",
@@ -127,13 +127,13 @@ const donaHombres = new Chart(ctx4, {
 });
 
 
-const donaMujeres = new Chart(ctx5, {
+const donaMujeresA = new Chart(ctxa4, {
     type: "pie",
     data: {
         labels: xValues,
         datasets: [{
             label: 'Estudiantes Mujeres',
-            data: [10, 2, 4],
+            data: [2, 9, 1],
             backgroundColor: [
                 "#2b5797",
                 "#b91d47",
