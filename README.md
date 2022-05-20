@@ -128,8 +128,11 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
 - [ ] Analizar datos de los graficos con Pandas py
 - [x] Modo oscuro
   - [ ] Acomodar el modo oscuro para que funcione correctamente
-- [ ] Pasar graficos a Chartjs o amCharts
+- [ ] Pasar graficos a Chartjs
   - [x] Primera prueba
+  - [x] Segunda prueba
+
+
 - [ ] Pantalla para datos de las materias
 
 

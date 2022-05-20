@@ -65,7 +65,9 @@
       <div class="col l8 s12">
         <!-- Entrada de noticias -->
         <div class="card-4 margin dark-grey">
-          <img src="img/algebra.png" alt="algebra" style="width:100%">
+          <div class="card-2 white" style="max-width: 400px; margin: auto;">
+            <canvas id="donaAlgebra"></canvas>
+          </div>
           <div class="container">
             <h3><b>Primer Parcial Algebra MOD 2</b></h3>
             <h5>Grafico de Notas, <span class="opacity">Mayo 14, 2022</span></h5>
@@ -75,11 +77,11 @@
             <p>Aca esta el primer recuento de notas del primer parcial de algebra. Los graficos muestran un recuento general
               de las notas, el sexo de los estudiantes, un recuento de notas dependiendo el sexo del estudiante, entre otros datos.<br> 
               <b>Descansen en paz soldados.</b><br>
-              Los graficos se realizaron mediante Power Bi. 
+              Los graficos se realizaron mediante Power Bi y luego se utilizo chart js para representarlos. 
             </p>
             <div class="row">
               <div class="col m8 s12">
-                <p><button class="button padding-large white border" style="border-radius: 50px;"><b><a href="#">Ver más »</a></b></button></p>
+                <p><button class="button padding-large white border" style="border-radius: 50px;"><b><a href="Parcial-Algebra.html">Ver más »</a></b></button></p>
               </div>
               
             </div>
@@ -97,7 +99,7 @@
           <div class="container">
             <p>Aca esta el primer recuento de notas del primer trabajo Practico obligatorio de Modelos y sistemas de información del modulo 1. Los graficos muestran la cantidad total de alumnos, un recuento general
               de notas, el sexo de los estudiantes, un recuento de notas dependiendo el sexo del estudiante, entre otros datos.<br> 
-              Los graficos se realizaron mediante Power Bi. 
+              Los graficos se realizaron mediante Power Bi y luego se utilizo chart js para representarlos. 
             </p>
             <div class="row">
               <div class="col m8 s12">
@@ -111,7 +113,7 @@
 
         <div class="card-4 margin dark-grey">
           <div class="container dark-grey">
-            <div class="card-2 white" style="max-width: 400px;">
+            <div class="card-2 white" style="max-width: 400px; margin: auto;">
               <canvas id="donaMsi"></canvas>
             </div>
             <h3><b>Primer kahoot MSI</b></h3>
@@ -121,7 +123,7 @@
           <div class="container">
             <p>Aca esta el primer recuento de notas del primer Kahoot de Modelos y sistemas de información del modulo 2. Los graficos muestran la cantidad total de alumnos, un recuento general
               de notas, alumnos segun su sexo, recuento de notas por sexo, entre otros datos.<br> 
-              Los graficos se realizaron mediante Power Bi. 
+              Los graficos se realizaron mediante Power Bi y luego se utilizo chart js para representarlos. 
             </p>
             <div class="row">
               <div class="col m8 s12">
@@ -144,7 +146,7 @@
           <div class="container">
             <p>Aca esta el recuento de notas del primer parcial de Introducción a la computación. Los graficos muestran la cantidad total de alumnos, un recuento general
               de notas, alumnos segun su sexo, recuento de notas por sexo, entre otros datos.<br> 
-              Los graficos se realizaron mediante Power Bi.</p>
+              Los graficos se realizaron mediante Power Bi y luego se utilizo chart js para representarlos.</p>
             <div class="row">
               <div class="col m8 s12">
                 <p><button class="button padding-large white border" style="border-radius: 50px;"><b><a href="">Ver más »</a></b></button></p>
@@ -262,7 +264,8 @@
   </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
-      <script src="./scripts/graficos.js"></script>
+      <script src="./scripts/algebragraficos.js"></script>
+      <script src="./scripts/msigraficos.js"></script>
       <script src="./scripts/script.js"></script>
 
 </body>
