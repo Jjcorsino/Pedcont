@@ -73,7 +73,7 @@ o aprender a desarrollar por primera vez.
 ## Como empezar
 
 Esto es un mini tutorial para los que quieran unirse al proyecto y aun no sepan "nada" sobre programar.<br>
-Si siguen los pasos no van deberian tener ningun problema.
+Si siguen los pasos no van deberian tener ningun problema. (Resumido para gente de boquita)
 
 
 ### Prerequisitos
@@ -87,10 +87,10 @@ Si siguen los pasos no van deberian tener ningun problema.
 
 Al tener los requisitos previos ya se puede empezar, lo primero y principal avisar por discord a Newhunterino#4842 para la integración al proyecto.<br>
 
-* Al ser un proyecto web, no van a necesitar instalar dependencias ni packetes, por ahora.
+* Al ser un proyecto web, por ahora, no van a necesitar instalar dependencias ni packetes
 
 
-1. * Clonar el repositorio. 
+1. * Clonar el repositorio.
 
    ```sh
    git clone https://github.com/Jjcorsino/Pedcont
@@ -100,7 +100,8 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
    ir a https://github.com/Jjcorsino/Pedcont -> boton verde -> clonar
    ```
 
-
+2. * Abrir el repositorio desde Github Desktop, una vez abierto dirigirse a la branch v2
+3. * Una vez abierta la branch v2, pueden empezar a tocar cosas
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
 
 
@@ -128,6 +129,7 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
 - [x] Modo oscuro
   - [ ] Acomodar el modo oscuro para que funcione correctamente
 - [ ] Pasar graficos a Chartjs o amCharts
+  - [x] Primera prueba
 - [ ] Pantalla para datos de las materias
 
 

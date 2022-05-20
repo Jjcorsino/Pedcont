@@ -8,7 +8,7 @@ const darkMode = d.querySelector('#darkmode')
 d.addEventListener('DOMContentLoaded', (e) =>{
     countdownParcial('algebra', 'Jun 27, 2022', 'Pagoda', '15:00 Pm', '<b>27/06/22</b>, Segundo Parcial', 'Algebra')
     countdownParcial('parcial', 'May 23, 2022', 'Pagoda', '15:00 Pm', '<b>23/05/22</b>, Rec. Primer Parcial', 'Algebra')
-    countdownParcial('rpa', 'May 19, 2022', '107 y Fai', '20:00 pm', '<b>19/05/22</b>, Primer Parcial', 'RPA')
+    countdownParcial('rpa', 'May 24, 2022', '107 y Fai', '08:30 pm', '<b>24/05/22</b>, Primer Parcial', 'RPA')
     countdownParcial('msi', 'May 28, 2022', 'Fai', '09:00 Am', '<b>28/05/22</b>, Primer Parcial', 'MSI')
 
 

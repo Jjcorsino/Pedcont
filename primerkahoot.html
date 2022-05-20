@@ -63,28 +63,44 @@
     <div class="row">
 
       <!-- Noticias -->
-      <div class="col l12 s12">
+      <div class="col l4">
         <!-- Entrada de noticias -->
         <div class="card-4 margin white">
-
-          <img class="recuento" src="img/recuento.PNG" alt="msi" style="width:60%">
-          <img class="recuento" src="img/recuento2.PNG" alt="msi" style="width:60%">
-          <img class="recuento" src="img/recuento3.PNG" alt="msi" style="width:80%">
-          <img class="recuento" src="img/recuento4.PNG" alt="msi" style="width:80%">
-
+          <h2 class="center">Notas Generales</h2>
+          <canvas id="donaMsi" width="300" height="200" ></canvas>
+          <hr>
+          <h2 class="center">Notas Hombres</h2>
+          <canvas id="donaHombres" width="300" height="200" ></canvas>
         </div>
-        <hr>
-        <!-- Fin pagina -->
-        <canvas id="myChart" width="400" height="400"></canvas>
       </div>
+
+      <div class="col l4">
+        <div class="card-4 margin white">
+          <canvas id="barrasMsi" width="300" height="335"></canvas>
+          <hr>
+          <h2 class="center">Notas Mujeres</h2>
+          <canvas id="donaMujeres" width="300" height="200" ></canvas>
+        </div>
+      </div>
+      <div class="col l4">
+        <div class="card-4 margin white">
+          <canvas id="donaEstudiantes" width="300" height="200" ></canvas>
+        </div>
+      </div>
+
+
+
+
       <!-- Footer -->
       <footer class="container dark-grey padding-32 margin-top">
 
         <p>Powered by <a href="https://github.com/Jjcorsino" target="_blank">Julian Corsino</a></p>
       </footer>
 
-      <script src="./scripts/script.js"></script>
-      <script src="./scripts/graficos.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+      <script src="/scripts/graficos.js"></script>
+      <script src="/scripts/script.js"></script>
+
 
 </body>
 
