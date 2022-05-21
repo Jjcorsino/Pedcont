@@ -70,7 +70,14 @@ const barAlgebra_m1 = new Chart(ctxa1_m1, {
             y: {
                 beginAtZero: true
             }
-        }
+        },
+        plugins:{
+            labels:{
+                render: 'value',
+                position: 'inside',
+
+            },
+        },
     }
 });
 

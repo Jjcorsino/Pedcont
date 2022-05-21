@@ -7,7 +7,7 @@ const ctxa4_ic = 'donaMujeres_ic';
 
 var pValues = ["Aprobados", "Desaprobados", "Promocionados", "Ausentes"];
 var xValues = ["Aprobados", "Desaprobados", "Promocionados"];
-var eValues = ["Hombres", "Mujeres"]; 
+var eValues = ["Hombres", "Mujeres"];
 
 
 const dona_ic = new Chart(ctxa_ic, {
@@ -69,7 +69,14 @@ const bar_ic = new Chart(ctxa1_ic, {
             y: {
                 beginAtZero: true
             }
-        }
+        },
+        plugins: {
+            labels: {
+                render: 'value',
+                position: 'inside',
+
+            },
+        },
     }
 });
 

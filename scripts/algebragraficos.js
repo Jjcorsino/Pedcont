@@ -31,8 +31,16 @@ const donaAlgebra = new Chart(ctxa, {
         title: {
             display: false
         },
+        plugins:{
+            labels:
+            {
+                render: 'data',
+                position: 'inside',
+                fontSize: 15
+            },
+        },
 
-    }
+    },
 });
 
 const barAlgebra = new Chart(ctxa1, {
@@ -70,7 +78,14 @@ const barAlgebra = new Chart(ctxa1, {
             y: {
                 beginAtZero: true
             }
-        }
+        },
+        plugins:{
+            labels:{
+                render: 'value',
+                position: 'inside',
+
+            },
+        },
     }
 });
 

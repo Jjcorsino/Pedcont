@@ -10,20 +10,15 @@ d.addEventListener('DOMContentLoaded', (e) =>{
     countdownParcial('parcial', 'May 23, 2022', 'Pagoda', '15:00 Pm', '<b>23/05/22</b>, Rec. Primer Parcial', 'Algebra')
     countdownParcial('rpa', 'May 24, 2022', '107 y Fai', '08:30 pm', '<b>24/05/22</b>, Primer Parcial', 'RPA')
     countdownParcial('msi', 'May 28, 2022', 'Fai', '09:00 Am', '<b>28/05/22</b>, Primer Parcial', 'MSI')
-
-
-
-
 })
 
 darkMode.addEventListener('click', () => {
-    if(d.body.className == 'dark-grey'){
-        d.body.classList.replace('dark-grey', 'white');
+    if(d.body.className == 'black'){
+        d.body.classList.replace('black', 'white');
     }else{
-        d.body.classList.replace('white', 'dark-grey')
+        d.body.classList.replace('white', 'black')
     }  
 })
-
 
 
 //? Functions
@@ -48,11 +43,13 @@ const countdownParcial = (id, date, classRoom, hour, msg, course) => {
         element.innerHTML = `${msg}<br>
                             Aula: ${classRoom}<br> 
                             Horario: ${hour}<br>
-                            Faltan ${days} Dias
+                            Faltan ${days + 1} Dias
                             `
         if(limitTime <= 0){
             clearInterval(timer)
-            element.innerHTML = `Hoy es el parcial de ${course}`
+            element.innerHTML = `Hoy es el parcial de ${course} <br>
+                                Aula: ${classRoom} <br>
+                                Horario: ${hour} <br>`
         }
     }, 1000)
 

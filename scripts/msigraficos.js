@@ -75,7 +75,14 @@ const barrasMsi = new Chart(ctx2, {
             y: {
                 beginAtZero: true
             }
-        }
+        },
+        plugins:{
+            labels:{
+                render: 'value',
+                position: 'inside',
+
+            },
+        },
     }
 });
 

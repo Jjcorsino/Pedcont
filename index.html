@@ -24,22 +24,21 @@
   </style>
 </head>
 
-<body class="dark-grey">
+<body class="black">
 
   <!-- content define un container para un tamaño fijo centrado de todo el contenido de la página -->
   <div class="content" style="max-width:1400px">
 
     <!-- Barra de navegación -->
-    <div class="top">
+    <div class="top black">
       <div class="bar align">
-        <a class="bar-item button hide-medium hide-large right padding-large hover-white large white" href="javascript:void(0);" onclick="hMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-        <a href="https://jjcorsino.github.io/Pedcont/" class="bar-item button padding-large white" style="border-radius: 50px;">Inicio</a>
-        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">Algebra</a>
-        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">RPA</a>
-        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">MSI</a>
-        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">IC</a>
-        <a id="darkmode" class="bar-item button hide-small padding-large hover-dark-grey switch"><i class="ri-contrast-2-fill"></i></a>
-
+        <a class="bar-item button hide-medium hide-large right padding-large hover-dark-grey black large white" href="javascript:void(0);" onclick="hMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="https://jjcorsino.github.io/Pedcont/" class="bar-item button padding-large" style="border-radius: 50px;">Inicio</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey" style="border-radius: 50px;">Algebra</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey" style="border-radius: 50px;">RPA</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey" style="border-radius: 50px;">MSI</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey" style="border-radius: 50px;">IC</a>
+        <a id="darkmode" class="bar-item button hide-small padding-large hover-dark-grey switch ri-contrast-2-fill" style="border-radius: 50px;"></a>
         
       </div>
     
@@ -67,6 +66,7 @@
           <div class="card-2 white" style="max-width: 400px; margin: auto;">
             <canvas id="donaAlgebra_m1"></canvas>
           </div>
+          
           <div class="container dark-grey">
             <h3><b>Primer Parcial Algebra MOD 1</b></h3>
             <h5>Grafico de Notas, <span class="opacity">Mayo 20, 2022</span></h5>
@@ -190,6 +190,16 @@
       <div class="col l4">
         <!-- Tarjeta de noticia chica -->
         <div class="card margin margin-top">
+          <img src="img/drako.png" style="width:100%">
+          <div class="container dark-grey">
+            <h4><b>Recuperatorio ic</b></h4>
+            <p>Noticias relativamente buenas.<br> Ya se encuentran disponibles las notas del Recuperatorio del primer parcial de IC, tanto del modulo 1 como del modulo 2.<br>
+            Podes encontrarlas en Pedco, o en el siguiente link »<a href="/archivos/notas1erRec2022IC (1).pdf" download="NotasRecIC">Descargar</a>» </p>
+          </div>
+        </div>
+        <hr>
+
+        <div class="card margin margin-top">
           <img src="img/kahoot.jpg" style="width:100%">
           <div class="container dark-grey">
             <h4><b>Kahoot msi mod 1 & 2</b></h4>
@@ -284,7 +294,7 @@
   </div>
 
   <!-- Footer -->
-  <footer class="container dark-grey padding-32 margin-top">
+  <footer class="container black padding-32 margin-top">
     
     <p>Powered by <a href="https://github.com/Jjcorsino" target="_blank">Julian Corsino</a></p>
 
@@ -292,6 +302,7 @@
   </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+      <script src="https://unpkg.com/chart.js-plugin-labels-dv/dist/chartjs-plugin-labels.min.js"></script>
       <script src="./scripts/algebram1.js"></script>
       <script src="./scripts/algebragraficos.js"></script>
       <script src="./scripts/tpomsi.js"></script>
