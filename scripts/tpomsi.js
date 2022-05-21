@@ -72,7 +72,14 @@ const barMsi_m1_msi = new Chart(ctxa1_msi, {
             y: {
                 beginAtZero: true
             }
-        }
+        },
+        plugins:{
+            labels:{
+                render: 'value',
+                position: 'inside',
+
+            },
+        },
     }
 });
 

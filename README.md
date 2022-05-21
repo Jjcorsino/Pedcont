@@ -42,7 +42,6 @@
     <li><a href="#contributing">Contribuciones</a></li>
     <li><a href="#license">Licencia</a></li>
     <li><a href="#contact">Contacto</a></li>
-    <li><a href="#acknowledgments">Agradecimientos</a></li>
   </ol>
 </details>
 
@@ -63,7 +62,10 @@ o aprender a desarrollar por primera vez.
 * [HTML](https://html.com/)
 * [CSS](https://google.com/)
 * [JavaScript](https://javascript.com/)
+  * [ChartJs](https://www.chartjs.org/)
+    *[ChartJs-plugin-label](https://github.com/DavideViolante/chartjs-plugin-labels)
 * [Power BI](https://powerbi.microsoft.com/)
+
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
 
@@ -116,7 +118,7 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
   - [ ] Agregar función de tachar los parciales automaticamente si la fecha ya paso
   - [ ] Poner todas las fechas en el Js
 - [ ] Cambiar el estilo del css
-  - [ ] Agregar constrante al nav
+  - [ ] Subir 'Fechas Importantes' arriba de las noticias derechas
 - [x] Agregar contenido de las materias
   - [x] Algebra
   - [x] Resolución de problemas y algoritmos
@@ -124,16 +126,18 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
   - [x] Introducción a la computación
 - [ ] Agregar pantalla para cada una de las materias
 - [x] Agregar menu navegación
+  - [x] Agregar constrante al nav
+  - [ ] Agregar Fechas Importantes al nav
 - [x] Agregar fechas parciales
 - [ ] Analizar datos de los graficos con Pandas py
 - [x] Modo oscuro
   - [ ] Acomodar el modo oscuro para que funcione correctamente
-- [ ] Pasar graficos a Chartjs
+- [x] Pasar graficos a Chartjs
   - [x] Primera prueba
   - [x] Segunda prueba
-
-
-- [ ] Pantalla para datos de las materias
+  - [ ] Actualizar font-size dentro de los graficos y cambiar color
+- [x] Pantalla para datos de las materias
+- [ ] Cambiar 'Contenido materias' por algo útil, PE: noticias viejas
 
 
 
@@ -170,5 +174,6 @@ No hay licencia pa, todo free. Usalo como quieras
 ## Contacto
 
 Project Link: [https://github.com/Jjcorsino/Pedcont](https://github.com/Jjcorsino/Pedcont)
+Github Pages: [https://jjcorsino.github.io/Pedcont/](https://jjcorsino.github.io/Pedcont/)
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>

@@ -958,8 +958,9 @@ a {
 .top,
 .bottom {
 	position: fixed;
-	width: 100%;
-	z-index: 1
+	width: auto;
+	z-index: 1;
+	border-radius: 2%;
 }
 
 .top {
