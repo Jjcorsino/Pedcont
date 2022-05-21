@@ -1,8 +1,8 @@
-const ctxa = 'donaAlgebra';
-const ctxa1 = 'barAlgebra';
-const ctxa2 = 'donaEstudiantesA';
-const ctxa3 = 'donaHombresA';
-const ctxa4 = 'donaMujeresA';
+const ctxa_msi = 'dona_m1_msi';
+const ctxa1_msi = 'barMsi_m1_msi';
+const ctxa2_msi = 'donaEstudiantes_m1_msi';
+const ctxa3_msi = 'donaHombres_m1_msi';
+const ctxa4_msi = 'donaMujeres_m1_msi';
 
 
 var pValues = ["Aprobados", "Desaprobados", "Promocionados", "Ausentes"];
@@ -10,17 +10,19 @@ var xValues = ["Aprobados", "Desaprobados", "Promocionados"];
 var eValues = ["Hombres", "Mujeres"]; 
 
 
-const donaAlgebra = new Chart(ctxa, {
+const dona_m1_msi = new Chart(ctxa_msi, {
     type: "pie",
     data: {
-        labels: xValues,
+        labels: pValues,
         datasets: [{
             label: 'Total Notas Estudiantes',
-            data: [7, 68, 5],
+            data: [39, 4, 177, 29],
             backgroundColor: [
                 "#2b5797",
                 "#b91d47",
                 "#00aba9",
+                "#b0aba9",
+
                 
             ],
             hoverOffset: 3
@@ -35,12 +37,12 @@ const donaAlgebra = new Chart(ctxa, {
     }
 });
 
-const barAlgebra = new Chart(ctxa1, {
+const barMsi_m1_msi = new Chart(ctxa1_msi, {
     type: 'bar',
     data: {
-        labels: xValues,
+        labels: pValues,
         datasets: [{
-            data: [7, 68, 5],
+            data: [39, 4, 177, 29],
             label: " ",
             backgroundColor: [
                 'rgba(54, 162, 235, 0.5)',
@@ -75,13 +77,13 @@ const barAlgebra = new Chart(ctxa1, {
 });
 
 
-const donaEstudiantesA = new Chart(ctxa2, {
+const donaEstudiantes_m1_msi = new Chart(ctxa2_msi, {
     type: "doughnut",
     data: {
         labels: eValues,
         datasets: [{
             label: 'Estudiantes',
-            data: [68, 12],
+            data: [207, 41],
             backgroundColor: [
                 "rgba(54, 162, 235, 1)",
                 "rgba(255, 99, 132, 1)",
@@ -98,17 +100,19 @@ const donaEstudiantesA = new Chart(ctxa2, {
     }
 });
 
-const donaHombresA = new Chart(ctxa3, {
+const donaHombres_m1_msi = new Chart(ctxa3_msi, {
     type: "pie",
     data: {
-        labels: xValues,
+        labels: pValues,
         datasets: [{
             label: 'Estudiantes Hombres',
-            data: [5, 59, 4],
+            data: [33, 4, 146, 25],
             backgroundColor: [
                 "#2b5797",
                 "#b91d47",
                 "#00aba9",
+                "#b0aba9",
+
                 
             ],
             hoverOffset: 3
@@ -127,17 +131,19 @@ const donaHombresA = new Chart(ctxa3, {
 });
 
 
-const donaMujeresA = new Chart(ctxa4, {
+const donaMujeres_m1_msi = new Chart(ctxa4_msi, {
     type: "pie",
     data: {
-        labels: xValues,
+        labels: pValues,
         datasets: [{
             label: 'Estudiantes Mujeres',
-            data: [2, 9, 1],
+            data: [6, 0, 31, 4],
             backgroundColor: [
                 "#2b5797",
                 "#b91d47",
                 "#00aba9",
+                "#b0aba9",
+
                 
             ],
             hoverOffset: 3
