@@ -63,7 +63,7 @@ o aprender a desarrollar por primera vez.
 * [CSS](https://google.com/)
 * [JavaScript](https://javascript.com/)
   * [ChartJs](https://www.chartjs.org/)
-    *[ChartJs-plugin-label](https://github.com/DavideViolante/chartjs-plugin-labels)
+    * [ChartJs-plugin-label](https://github.com/DavideViolante/chartjs-plugin-labels)
 * [Power BI](https://powerbi.microsoft.com/)
 
 
@@ -118,7 +118,7 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
   - [ ] Agregar función de tachar los parciales automaticamente si la fecha ya paso
   - [ ] Poner todas las fechas en el Js
 - [ ] Cambiar el estilo del css
-  - [ ] Subir 'Fechas Importantes' arriba de las noticias derechas
+  - [x] Subir 'Fechas Importantes' arriba de las noticias derechas
 - [x] Agregar contenido de las materias
   - [x] Algebra
   - [x] Resolución de problemas y algoritmos
@@ -137,7 +137,10 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
   - [x] Segunda prueba
   - [ ] Actualizar font-size dentro de los graficos y cambiar color
 - [x] Pantalla para datos de las materias
+  - [ ] Corregir boton 'Ver más'
 - [ ] Cambiar 'Contenido materias' por algo útil, PE: noticias viejas
+- [ ] Implementar API Pedco Status
+
 
 
 
@@ -156,6 +159,7 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
 3. Enviar tus cambios (`git commit -m 'Add some Pedco-n't'`)
 4. Push la rama (`git push origin feature/Pedco-n't`)
 5. Abrir una Pull Request
+6. blablaba
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
 
@@ -173,7 +177,7 @@ No hay licencia pa, todo free. Usalo como quieras
 <!-- CONTACTo -->
 ## Contacto
 
-Project Link: [https://github.com/Jjcorsino/Pedcont](https://github.com/Jjcorsino/Pedcont)
+Project Link: [https://github.com/Jjcorsino/Pedcont](https://github.com/Jjcorsino/Pedcont) <br>
 Github Pages: [https://jjcorsino.github.io/Pedcont/](https://jjcorsino.github.io/Pedcont/)
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
