@@ -7,13 +7,13 @@
 <br />
 <div align="center">
  
+   ![bokaboka](img/pedco.png)
 
-<h3 align="center">Pedco-n't</h3>
+<h3 align="center"></h3>
+  
 
   <p align="center">
-    Esta proyecto fue creado solamente para fines practicos. La idea principal es poder tener todo el contenido de pedco para cuando se caiga la pagina.
-    <br />
-    (osea siempre)
+    Esta proyecto fue creado solamente para fines practicos. La idea principal es poder tener todo el contenido de pedco para cuando se caiga la pagina, asi como notas, graficos, etc.
     <br />
     
   </p>
@@ -63,7 +63,7 @@ o aprender a desarrollar por primera vez.
 * [CSS](https://google.com/)
 * [JavaScript](https://javascript.com/)
   * [ChartJs](https://www.chartjs.org/)
-    * [ChartJs-plugin-label](https://github.com/DavideViolante/chartjs-plugin-labels)
+  * [ChartJs-plugin-label](https://github.com/DavideViolante/chartjs-plugin-labels)
 * [Power BI](https://powerbi.microsoft.com/)
 
 
@@ -74,36 +74,47 @@ o aprender a desarrollar por primera vez.
 <!-- Como empezar -->
 ## Como empezar
 
-Esto es un mini tutorial para los que quieran unirse al proyecto y aun no sepan "nada" sobre programar.<br>
+Esto es un mini tutorial para los que quieran unirse al proyecto y aun no sepan "nada.<br>
 Si siguen los pasos no van deberian tener ningun problema. (Resumido para gente de boquita)
 
+<p align="right">(<a href="#top">Volver arriba</a>)</p>
 
 ### Prerequisitos
 
-* Tener cuenta en [GitHub](https://github.com/)
+* Crearse o tener cuenta en [GitHub](https://github.com/)
 * Tener algun IDE (Visual Studio Code recomendado) [VSC](https://code.visualstudio.com/)
-* [GithubDesktop](https://desktop.github.com/)
+* Bajarse [GithubDesktop](https://desktop.github.com/)
 
+<p align="right">(<a href="#top">Volver arriba</a>)</p>
 
 ### Instalacion
 
-Al tener los requisitos previos ya se puede empezar, lo primero y principal avisar por discord a Newhunterino#4842 para la integración al proyecto.<br>
+Al tener los requisitos previos ya se puede empezar. Avisarme por ds (Newhunterino#4842) para la integración al proyecto.<br>
 
-* Al ser un proyecto web, por ahora, no van a necesitar instalar dependencias ni packetes
+* Al ser un proyecto web simple, por ahora, no van a necesitar instalar dependencias.
 
 
-1. * Clonar el repositorio.
+1. * Clonar el repositorio (comandos).
 
    ```sh
    git clone https://github.com/Jjcorsino/Pedcont
    ```
-   * Desde la web
+   * o desde la web para la gente de bokita
+   ![bokaboka](img/tutobokita.PNG)
    ```sh
-   ir a https://github.com/Jjcorsino/Pedcont -> boton verde -> clonar
+   boton verde -> Open with Github Desktop
    ```
 
-2. * Abrir el repositorio desde Github Desktop, una vez abierto dirigirse a la branch v2
-3. * Una vez abierta la branch v2, pueden empezar a tocar cosas
+2. * Una vez abierto el repositorio desde Github Desktop, dirigirse a la branch v2 o test
+  ![bokita](img/tutobokita2.PNG)
+  ```sh
+   Van a salir varias opciones. --> 'open in visual studio code'
+   ```
+3. * Una vez abierta la branch v2, pueden empezar a tocar cosas.
+
+
+##No dar push ni crear pull request sin avisar, traten de no romper nada
+
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
 
 
@@ -112,6 +123,8 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
 
 <!-- ROADMAP -->
 ## Roadmap
+
+<b>Aca se expone una mini lista de las cosas que hay que modificar o agregar a la página de pedcon't:</b>
 
 - [x] Pantalla para llevar información power bi
 - [x] Cuenta regresiva para la fecha de los parciales
@@ -141,7 +154,7 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
 - [ ] Cambiar 'Contenido materias' por algo útil, PE: noticias viejas
 - [ ] Implementar API Pedco Status
 
-
+* Actualizar readme si implementan algo
 
 
 
@@ -154,8 +167,9 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
 <!-- CONTRIBUCIONES-->
 ## Contribuir
 
+<b>Si quieren contribuir por primera vez, avisenme en discord y explico con un mini tutorial, si no son de bokita --> </b>
 1. Fork the Project
-2. Create una rama con tus cambios (`git checkout -b feature/Pedco-n't`)
+2. Crear una rama con tus cambios (`git checkout -b feature/Pedco-n't`)
 3. Enviar tus cambios (`git commit -m 'Add some Pedco-n't'`)
 4. Push la rama (`git push origin feature/Pedco-n't`)
 5. Abrir una Pull Request
@@ -177,7 +191,9 @@ No hay licencia pa, todo free. Usalo como quieras
 <!-- CONTACTo -->
 ## Contacto
 
-Project Link: [https://github.com/Jjcorsino/Pedcont](https://github.com/Jjcorsino/Pedcont) <br>
+Project Link: [https://github.com/Jjcorsino/Pedcont](https://github.com/Jjcorsino/Pedcont)
 Github Pages: [https://jjcorsino.github.io/Pedcont/](https://jjcorsino.github.io/Pedcont/)
+Discord: Newhunterino#4842
+Github Profile: [Profile](https://github.com/Jjcorsino/)
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
