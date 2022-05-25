@@ -191,9 +191,9 @@ No hay licencia pa, todo free. Usalo como quieras
 <!-- CONTACTo -->
 ## Contacto
 
-Project Link: [https://github.com/Jjcorsino/Pedcont](https://github.com/Jjcorsino/Pedcont)
-Github Pages: [https://jjcorsino.github.io/Pedcont/](https://jjcorsino.github.io/Pedcont/)
-Discord: Newhunterino#4842
-Github Profile: [Profile](https://github.com/Jjcorsino/)
+Project Link: [https://github.com/Jjcorsino/Pedcont](https://github.com/Jjcorsino/Pedcont)<br>
+Github Pages: [https://jjcorsino.github.io/Pedcont/](https://jjcorsino.github.io/Pedcont/)<br>
+Discord: Newhunterino#4842<br>
+Github Profile: [Profile](https://github.com/Jjcorsino/)<br>
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
