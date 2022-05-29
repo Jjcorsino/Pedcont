@@ -12,8 +12,6 @@ d.addEventListener('DOMContentLoaded', (e) =>{
     countdownParcial('msitp', 'Jun 18, 2022', 'Virtual', '08:00 Am', '<b>03/06/22</b>, Segundo TPO', 'msitp')
     countdownParcial('ic', 'Jun 10, 2022', 'Fai', '09:00 Am', '<b>10/06/22</b>, Segundo Parcial', 'IC')
     countdownParcial('rpa', 'Jun 21, 2022', 'Fai', '09:00 Am', '<b>21/06/22</b>, Segundo Parcial', 'rpa')
-    
-
 
 })
 
