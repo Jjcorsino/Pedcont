@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pedco-n't</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Peco-n't es una página web de practica creada en 2022 con el fin de no depender de pedco para ver las noticias, fechas de parciales, contenido de las materias, entre otras cosas">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Julian Corsino">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="icon" type="image/png" href="img/aa.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: "Raleway", sans-serif
+    }
+  </style>
+</head>
+
+<body class="black">
+
+  <!-- content define un container para un tamaño fijo centrado de todo el contenido de la página -->
+  <div class="content" style="max-width:1400px">
+
+    <div class="top black">
+      <div class="bar align">
+        <a class="bar-item button hide-medium hide-large right padding-large hover-white large white"
+          href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i
+            class="fa fa-bars"></i></a>
+        <a href="https://jjcorsino.github.io/Pedcont/" class="bar-item button padding-large white" style="border-radius: 50px;">Inicio</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">Algebra</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">RPA</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">MSI</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">IC</a>
+        <a id="darkmode" class="bar-item button hide-small padding-large hover-dark-grey switch"><i class="ri-contrast-2-fill"></i></a>
+
+
+      </div>
+
+      <!-- Barra responsive para celulare -->
+      <div id="navDemo" class="bar-block white hide hide-large hide-medium large">
+        <a href="#" class="bar-item button padding-large">Algebra</a>
+        <a href="#" class="bar-item button padding-large">RPA</a>
+        <a href="#" class="bar-item button padding-large">MSI</a>
+        <a href="#" class="bar-item button padding-large">IC</a>
+      </div>
+    </div>
+
+
+    <!-- Header -->
+    <header class="container center" style="padding:128px 16px">
+      <a href="https://jjcorsino.github.io/Pedcont/"><img src="img/pedco.png" style="width:50%; height: 50%;"></a>
+    </header>
+
+    <!-- Grid -->
+    <div class="row">
+
+      <!-- Noticias -->
+      <div class="col l4">
+        <!-- Entrada de noticias -->
+        <div class="card-4 margin white">
+          <h2 class="center">Notas Generales</h2>
+          <canvas id="donaRecuperatorioAlgebra" width="300" height="200" ></canvas>
+          <hr>
+          <h2 class="center">Notas Hombres</h2>
+          <canvas id="donaRecuperatorioHombresA" width="300" height="200" ></canvas>
+        </div>
+      </div>
+
+      <div class="col l4">
+        <div class="card-4 margin white">
+          <canvas id="barRecuperatorioAlgebra" width="300" height="335"></canvas>
+          <hr>
+          <h2 class="center">Notas Mujeres</h2>
+          <canvas id="donaRecuperatorioMujeresA" width="300" height="200" ></canvas>
+        </div>
+      </div>
+      <div class="col l4">
+        <div class="card-4 margin white">
+          <canvas id="donaRecuperatorioEstudiantesA" width="300" height="200" ></canvas>
+        </div>
+      </div>
+
+
+      </div>
+  </div>
+      <!-- Footer -->
+      <footer class="container black padding-32 margin-top">
+
+        <p>Powered by <a href="https://github.com/Jjcorsino" target="_blank">Julian Corsino</a></p>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+      <script src="https://unpkg.com/chart.js-plugin-labels-dv/dist/chartjs-plugin-labels.min.js"></script>
+      <script src="./scripts/recuperatorioalgebra.js"></script>
+      <script src="./scripts/script.js"></script>
+
+
+</body>
+
+</html>
