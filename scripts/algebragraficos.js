@@ -27,7 +27,7 @@ const donaAlgebra = new Chart(ctxa, {
         }]
     },
     options: {
-
+        
         title: {
             display: false
         },
@@ -39,7 +39,7 @@ const donaAlgebra = new Chart(ctxa, {
                 fontSize: 15
             },
         },
-
+        
     },
 });
 
