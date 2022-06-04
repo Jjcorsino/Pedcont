@@ -1,8 +1,8 @@
-const ctxa = 'donaRecuperatorioAlgebra';
-const ctxa1 = 'barRecuperatorioAlgebra';
-const ctxa2 = 'donaRecuperatorioEstudiantesA';
-const ctxa3 = 'donaRecuperatorioHombresA';
-const ctxa4 = 'donaRecuperatorioMujeresA';
+const txa = 'donaRecuperatorioAlgebra';
+const txa1 = 'barRecuperatorioAlgebra';
+const txa2 = 'donaRecuperatorioEstudiantesA';
+const txa3 = 'donaRecuperatorioHombresA';
+const txa4 = 'donaRecuperatorioMujeresA';
 
 
 var pValues = ["Aprobados", "Desaprobados", "Promocionados", "Ausentes"];
@@ -10,7 +10,7 @@ var xValues = ["Aprobados", "Desaprobados"];
 var eValues = ["Hombres", "Mujeres"]; 
 
 
-const donaRecuperatorioAlgebra = new Chart(ctxa, {
+const donaRecuperatorioAlgebra = new Chart(txa, {
     type: "pie",
     data: {
         labels: xValues,
@@ -42,7 +42,7 @@ const donaRecuperatorioAlgebra = new Chart(ctxa, {
     },
 });
 
-const barRecuperatorioAlgebra = new Chart(ctxa1, {
+const barRecuperatorioAlgebra = new Chart(txa1, {
     type: 'bar',
     data: {
         labels: xValues,
@@ -87,7 +87,7 @@ const barRecuperatorioAlgebra = new Chart(ctxa1, {
 });
 
 
-const donaRecuperatorioEstudiantesA = new Chart(ctxa2, {
+const donaRecuperatorioEstudiantesA = new Chart(txa2, {
     type: "doughnut",
     data: {
         labels: eValues,
@@ -110,7 +110,7 @@ const donaRecuperatorioEstudiantesA = new Chart(ctxa2, {
     }
 });
 
-const donaRecuperatorioHombresA = new Chart(ctxa3, {
+const donaRecuperatorioHombresA = new Chart(txa3, {
     type: "pie",
     data: {
         labels: xValues,
@@ -138,7 +138,7 @@ const donaRecuperatorioHombresA = new Chart(ctxa3, {
 });
 
 
-const donaRecuperatorioMujeresA = new Chart(ctxa4, {
+const donaRecuperatorioMujeresA = new Chart(txa4, {
     type: "pie",
     data: {
         labels: xValues,
