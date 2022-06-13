@@ -129,7 +129,7 @@ Al tener los requisitos previos ya se puede empezar. Avisarme por ds (Newhunteri
 - [x] Pantalla para llevar información power bi
 - [x] Cuenta regresiva para la fecha de los parciales
   - [ ] Agregar función de tachar los parciales automaticamente si la fecha ya paso
-  - [ ] Poner todas las fechas en el Js
+  - [x] Poner todas las fechas en el Js
 - [ ] Cambiar el estilo del css
   - [x] Subir 'Fechas Importantes' arriba de las noticias derechas
 - [x] Agregar contenido de las materias
@@ -150,7 +150,7 @@ Al tener los requisitos previos ya se puede empezar. Avisarme por ds (Newhunteri
   - [x] Segunda prueba
   - [ ] Actualizar font-size dentro de los graficos y cambiar color
 - [x] Pantalla para datos de las materias
-  - [ ] Corregir boton 'Ver más'
+  - [x] Corregir boton 'Ver más'
 - [ ] Cambiar 'Contenido materias' por algo útil, PE: noticias viejas
 - [ ] Implementar API Pedco Status
 
