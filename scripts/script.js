@@ -6,7 +6,7 @@ d.addEventListener("DOMContentLoaded", () => {
   countdownParcial("algebra", "Jun 27, 2022", "Pagoda", "15:00 Pm", "<b>27/06/22</b>, Segundo Parcial", "Algebra");
   countdownParcial("msi", "May 28, 2022", "106 y 107", "08:30 Am", "<b>28/05/22</b>, Primer Parcial", "MSI");
   countdownParcial("msik", "Jun 03, 2022", "Virtual", "09:00 Am", "<b>03/06/22</b>, Segundo Kahoot", "msik");
-  countdownParcial("msitp", "Jun 17, 2022", "Virtual", "08:00 Am", "<b>17/06/22</b>, Segundo TPO", "msitp");
+  countdownParcial("msitp", "Jun 24, 2022", "Virtual", "18:00 Am", "<b>24/06/22</b>, Cuarto Kahoot", "msitp");
   countdownParcial("ic", "Jun 24, 2022", "Fai", "09:00 Am", "<b>24/06/22</b>, Recuperatorio y promoción Segundo Parcial", "IC");
   countdownParcial("rpa", "Jun 25, 2022", "Fai - i1, i4, i5, i7", "09:00 Am", "<b>21/06/22</b>, Segundo Parcial", "rpa");
 });
