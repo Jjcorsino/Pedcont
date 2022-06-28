@@ -4,11 +4,11 @@ const d = document;
 // Fechas de los parciales
 d.addEventListener("DOMContentLoaded", () => {
   countdownParcial("algebra", "Jun 27, 2022", "Pagoda", "15:00 Pm", "<b>27/06/22</b>, Segundo Parcial", "Algebra");
-  countdownParcial("msi", "May 28, 2022", "106 y 107", "08:30 Am", "<b>28/05/22</b>, Primer Parcial", "MSI");
+  countdownParcial("msi", "Jul 02, 2022", "106 y 107", "9 Am", "<b>02/07/22</b>, Recuperatorio integral", "MSI");
   countdownParcial("msik", "Jun 03, 2022", "Virtual", "09:00 Am", "<b>03/06/22</b>, Segundo Kahoot", "msik");
   countdownParcial("msitp", "Jun 24, 2022", "Virtual", "18:00 Am", "<b>24/06/22</b>, Cuarto Kahoot", "msitp");
   countdownParcial("ic", "Jun 24, 2022", "Fai", "09:00 Am", "<b>24/06/22</b>, Recuperatorio y promoción Segundo Parcial", "IC");
-  countdownParcial("rpa", "Jun 25, 2022", "Fai - i1, i4, i5, i7", "09:00 Am", "<b>21/06/22</b>, Segundo Parcial", "rpa");
+  countdownParcial("rpa", "Jul 05, 2022", "Fai 106 y 107", "09:00 Am", "<b>05/07/22</b>, Recuperatorio integral", "rpa");
 });
 
 
